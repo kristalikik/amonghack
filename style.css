@@ -1,0 +1,500 @@
+body{
+    background-color: 
+    rgb(160, 0, 253);
+   
+}                                    
+
+p{
+    background-color: #000000; 
+    color: aquamarine;
+    margin:10px;
+    padding:20px ;
+    
+    width:40% ;
+}            
+ 
+img{
+    box-shadow: 10px 10px 5px 9px rgba(133,7,133,1); 
+} 
+
+#container{
+    width:auto;
+    background-color: #ff0000;
+    
+}
+
+.header{
+  background-color: #000000;
+  height: 300px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navi{
+    background-color: #c90606;
+    height: auto;
+}
+
+.content{
+    background-color: indigo;
+    float: left;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sibear{
+     background-color: aqua;
+    float: right;
+    width: 100%;
+}
+
+
+div{
+margin-top:0 ;
+}
+
+.post{
+
+    display:flex ;
+    margin: 20px;
+    background-color: #e70000;
+}
+
+.post img{
+   flex: 30%;
+
+}
+
+.postT{
+
+flex: 70%;
+
+}
+
+
+.footer {
+    background-color: aquamarine;
+    height: auto;
+    display: flex;
+    padding: 10px;
+    margin:10px ;
+    text-align: center;
+ }
+
+.foter img{
+    flex: 40%;
+
+}
+.obeme{
+   flex: 30%;
+   text-align: center;
+
+}
+
+
+#menu1{
+   position: relative;
+display: block;
+width:100% ;
+height:auto ;
+z-index: index 10; ;
+
+
+
+}
+
+#menu1  ul {
+    position: relative;
+ display: block;
+ width:100% ;
+ height:auto ;
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ 
+ }
+
+ #menu1  ul ::after {
+ display: block;
+ width:100% ;
+ height:0 ;
+ clear: both;
+ content:"" ;
+ 
+ }
+
+#menu1  ul li{
+
+position: relative;
+display: block; ;
+float: left;
+width:auto ;
+height: auto;
+
+}
+#menu1 ul li a{
+   display: block;
+   padding: 10px;
+   font-size: 14px;
+   height: 1.3em ;
+  text-decoration : none; 
+  font-weight:bold;
+  text-transform :uppercase;
+  height: 38px;
+  box-sizing : border-box;
+  background-color:#333030;
+  color: #6307cdeb;
+  border: solid 2px #7920ff;
+  border-radius: 5px;
+
+
+}
+
+#menu1 ul li ul{
+  position: absolute;
+ top: 40px;
+ left:0 ;
+display: none;
+width: 200px; 
+background-color: #7920ff;
+
+}
+
+#menu1 ul li:hover> ul {
+   
+    display: block;
+
+}
+
+#menu1 ul li ul li{
+
+float: none;
+width: 100%;
+
+}
+
+
+#menu1 ul li ul li a{
+    background-color:#333030;
+    color: #6307cdeb;
+    border: solid 2px #7920ff;
+   border-radius: 5px ;
+}
+
+#menu1 ul li :hover a{
+  
+    background-color:#fffcfc;
+    color: #6307cdeb;
+    border: solid 2px #7920ff;
+
+}
+
+
+
+#menu1 ul li ul :hover a{
+  
+    background-color:#333030;
+    color: #6307cdeb;
+    border: solid 2px #7920ff;
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+.LLL{
+    display: flex;
+}
+.ll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.niz{
+    
+ display: flex;
+
+}
+
+.bar{
+    height: 8px;
+    width: 30px;
+    margin: 10px;                                                                                               
+    cursor: pointer;
+    background-color: #ffffff;
+    opacity: .5;
+    border-radius: 10px;
+    transition: all .4s ease;
+}
+.bar :hover{
+    opacity: .8;
+    transform: scale(1.1);
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    width: 400%;
+    height: 100%;
+    display: flex;
+
+}
+.slide{
+    width: 25%;
+    transition:all .6s ease;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#r1:checked ~ .s1{
+    margin-left:0 ;
+}
+#r2:checked ~ .s1{
+    margin-left:-25% ;
+}
+#r3:checked ~ .s1{
+    margin-left:-50% ;
+}
+#r4:checked ~ .s1{
+    margin-left:-75% ;
+}
+
+
+.track{
+
+    margin: 10px;
+}
+
+.element{
+
+width:100% ;
+}
+p{
+
+
+    font-family: 'Pangolin', cursive;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
